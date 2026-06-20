@@ -1,0 +1,25 @@
+{
+  "name": "mcp-server-and-client",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start:server": "node dist/server.js",
+    "start:client": "node dist/client.js",
+    "server:build:": "tsc",
+    "server:build:watch:": "tsc --watch",
+    "server:dev": "tsk src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "tsk": "^0.3.2",
+    "@types/node": "^25.9.3",
+    "typescript": "^6.0.3"
+  }
+}
