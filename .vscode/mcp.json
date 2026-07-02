@@ -1,0 +1,20 @@
+{
+	"servers": {
+		"test-msp-video-server": {
+			"type": "stdio",
+			"command": "npm",
+			"args": [
+				"run",
+				"server:dev"
+			],
+			"cwd": "${workspaceFolder}",
+			"dev": {
+				"watch": "build/**/*.js",
+				"debug": {
+					"type": "node",
+				}
+			}
+		}
+	},
+	"inputs": []
+}
