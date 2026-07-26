@@ -40,5 +40,12 @@
     "email": "olga@me.com",
     "address": "14234 SW 97th Ter",
     "phone": "555 444 3333"
+  },
+  {
+    "id": 7,
+    "name": "Emily Chen",
+    "email": "emily.chen@example.com",
+    "address": "789 Willow Street, Apt 4B, Portland, OR 97205",
+    "phone": "+1-503-555-0198"
   }
 ]
